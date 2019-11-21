@@ -7,9 +7,6 @@ After that, a custom algorithm is run to define the border as X and Y coordinate
 Once we have X and Y coordinates of the path, a path planner find the optimal path by simply taking the center point of the defined borders. 
 
 
-![alt text](https://github.com/booleanlogic21/openCV_on_raspi/pics/binary.png)
-
-
 ## Face detection
 Simple face detection based on OpenCV's face detection and ageitgey/face_recognition repo. 
 
