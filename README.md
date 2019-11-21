@@ -6,10 +6,6 @@ Find the borders of a path given an image of a path for autonomous robot navigat
 After that, a custom algorithm is run to define the border as X and Y coordinate points in a time efficient manner. 
 Once we have X and Y coordinates of the path, a path planner find the optimal path by simply taking the center point of the defined borders. 
 
-
-![Alt text](https://github.com/booleanlogic21/openCV_on_raspi/edit/master/pics/Screen Shot 2019-11-09 at 16.12.45?raw=true "Title")
-
-
 ## Face detection
 Simple face detection based on OpenCV's face detection and ageitgey/face_recognition repo. 
 
