@@ -12,7 +12,6 @@ def show(string, image):
     cv2.imshow(string, image)
     cv2.waitKey()
 
-
 img = cv2.imread(
     "/Users/benjaminkolber/Desktop/Personal Programming /open_cv/pics/sample_path.png")
 
@@ -45,7 +44,7 @@ CUTOFF = 130  # cut off top 1/3 of image pixel 322 / 922
 MAX_ROWS = j = 921
 MAX_COLUMNS = k = 1226
 
-# base case, find start of line.
+# base case -> find start of line.
 L_found = False
 R_found = False
 for i in range(MAX_COLUMNS):
@@ -68,7 +67,6 @@ left_line.append([i, j])  # left border coordinates
 right_line.append([k, j])  # right border coordinates
 right_range = []
 left_range = []
-# j += 1
 
 # find left line trajectory
 LEFT = i
