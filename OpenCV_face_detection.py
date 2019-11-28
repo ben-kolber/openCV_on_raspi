@@ -15,6 +15,7 @@ time.sleep(0.1)
 face_cascade = cv2.CascadeClassifier('/home/pi/haarcascade_frontalface_default.xml')
 profile_cascade = cv2.CascadeClassifier('/home/pi/haarcascade_profileface.xml')
 found = False
+
 # capture frames from the camera
 while(True):
     camera.capture(rawCapture, format="bgr", use_video_port=True)
